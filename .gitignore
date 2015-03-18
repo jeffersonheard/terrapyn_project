@@ -13,3 +13,4 @@ static/media/
 terrapyn_project/static/
 local_settings.py
 .DS_Store
+moderna/

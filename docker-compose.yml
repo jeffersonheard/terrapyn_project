@@ -24,7 +24,7 @@ terrapyn:
     - postgis:postgis
     - redis:redis
     - rabbitmq:rabbitmq
-  command: /bin/bash init
+  command: /bin/bash /home/docker/terrapyn_project/init
 defaultworker:
   build: .
   environment:
